@@ -32,7 +32,7 @@ nav ul {
     list-style: none;
     width: 40%;
     justify-content: space-between;
-    
+    transform: translateX(0);
 }
 
 nav ul li a {
@@ -126,7 +126,7 @@ nav ul li a:hover {
         flex-direction: column;
         background-color: brown;
         z-index: -1;
-        transform: translateX(100%);
+        
         transition: all 1s;
         opacity: 0;
     }
